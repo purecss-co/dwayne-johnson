@@ -1,6 +1,6 @@
 // colors
 $bg-color: #fff;
-$portrait-color: #000;
+$dark-color: #000;
 
 html,
 body {
@@ -30,7 +30,7 @@ body {
   &-1 {
     width: 30vmin;
     height: 16vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: -50vmin;
     left: -4vmin;
     border-radius: 42% 58% 50% 50% / 100% 100% 0 0;
@@ -85,7 +85,7 @@ body {
   &-3 {
     width: 4vmin;
     height: 2.8vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: -46.5vmin;
     left: 10.4vmin;
     transform: rotate(-10deg);
@@ -104,7 +104,7 @@ body {
     &::after {
       width: 8vmin;
       height: 8vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 3vmin;
       left: 0.6vmin;
       transform: rotate(18deg);
@@ -124,7 +124,7 @@ body {
     &::before {
       width: 8vmin;
       height: 10vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: -0.8vmin;
       left: -9.3vmin;
       transform: rotate(28.5deg);
@@ -161,7 +161,7 @@ body {
     &::after {
       width: 0;
       height: 0;
-      border-bottom: 3vmin solid $portrait-color;
+      border-bottom: 3vmin solid $dark-color;
       border-left: 0.8vmin solid transparent;
       border-right: 1.1vmin solid transparent;
       top: -0.6vmin;
@@ -175,7 +175,7 @@ body {
   &-1 {
     width: 7.8vmin;
     height: 2.9vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: -20.6vmin;
     left: 2.7vmin;
     transform: rotate(-17deg);
@@ -194,7 +194,7 @@ body {
     &::after {
       width: 3.2vmin;
       height: 1.8vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 2.6vmin;
       left: 5.2vmin;
       transform: skewX(20deg) rotate(-10deg);
@@ -205,7 +205,7 @@ body {
   &-2 {
     width: 3vmin;
     height: 2.5vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: -19.2vmin;
     left: 2.9vmin;
     transform: rotate(-45deg);
@@ -213,7 +213,7 @@ body {
     &::before {
       width: 0.4vmin;
       height: 3vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 0.4vmin;
       left: -0.35vmin;
       transform: rotate(-30deg) skewY(-10deg);
@@ -222,7 +222,7 @@ body {
     &::after {
       width: 2vmin;
       height: 5vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: -4.7vmin;
       left: -0.5vmin;
       transform: rotate(35deg) skewX(10deg);
@@ -268,7 +268,7 @@ body {
     &::before {
       width: 2.5vmin;
       height: 1vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 1vmin;
       left: 2vmin;
       transform: rotate(5deg);
@@ -281,7 +281,7 @@ body {
     z-index: 3;
     width: 4.8vmin;
     height: 5.5vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: -21vmin;
     left: -12vmin;
     transform: skewX(10deg);
@@ -300,7 +300,7 @@ body {
     &::after {
       width: 3.7vmin;
       height: 3.4vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 3.2vmin;
       left: 0.6vmin;
       transform: rotate(10deg) skewX(3deg) skewY(0deg);
@@ -320,7 +320,7 @@ body {
     &::before {
       width: 1.8vmin;
       height: 3.3vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: -0.65vmin;
       left: -2.1vmin;
       transform: rotate(5deg) skewX(-18deg);
@@ -330,7 +330,7 @@ body {
     &::after {
       width: 4vmin;
       height: 0.75vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 3vmin;
       left: -5.3vmin;
       transform: rotate(-43deg) skewX(-24deg) skewY(-15deg);
@@ -341,7 +341,7 @@ body {
   &-3 {
     width: 3.8vmin;
     height: 2vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: -19.5vmin;
     left: -20vmin;
     transform: skewX(10deg) skewY(-5deg);
@@ -349,7 +349,7 @@ body {
     &::before {
       width: 2vmin;
       height: 1vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 0.4vmin;
       left: -1.6vmin;
       transform: skewX(20deg) skewY(-10deg);
@@ -368,7 +368,7 @@ body {
   &-4 {
     width: 0.8vmin;
     height: 5.4vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: -15.2vmin;
     left: -25vmin;
     transform: rotate(43deg) skewY(-30deg);
@@ -376,7 +376,7 @@ body {
     &::before {
       width: 0.5vmin;
       height: 2.4vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 0.4vmin;
       left: 0.4vmin;
       transform: rotate(12deg) skewY(-50deg);
@@ -385,7 +385,7 @@ body {
     &::after {
       width: 1vmin;
       height: 5vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 1.2vmin;
       left: -0.9vmin;
       transform: rotate(-26deg) skewY(-60deg);
@@ -417,7 +417,7 @@ body {
     z-index: 1;
     width: 2.5vmin;
     height: 7vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: -9.9vmin;
     left: 0.8vmin;
     transform: rotate(-5deg) skewY(-20deg);
@@ -435,7 +435,7 @@ body {
     &::after {
       width: 1vmin;
       height: 3vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 6vmin;
       left: 2.4vmin;
       transform: rotate(-29deg);
@@ -446,7 +446,7 @@ body {
     z-index: 4;
     width: 7.2vmin;
     height: 6.5vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 5.5vmin;
     left: 6vmin;
     transform: rotate(20deg);
@@ -476,7 +476,7 @@ body {
     z-index: 2;
     width: 0;
     height: 0;
-    border-bottom: 2.6vmin solid $portrait-color;
+    border-bottom: 2.6vmin solid $dark-color;
     border-left: 2.9vmin solid transparent;
     border-right: 2.8vmin solid transparent;
     top: 5.4vmin;
@@ -486,7 +486,7 @@ body {
     &::before {
       width: 3.3vmin;
       height: 4vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: -3.4vmin;
       left: -2vmin;
       transform: rotate(44deg);
@@ -509,7 +509,7 @@ body {
   &-1 {
     width: 6vmin;
     height: 2.5vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 16.2vmin;
     left: 2.8vmin;
     transform: rotate(-8deg) skewX(4deg);
@@ -517,7 +517,7 @@ body {
     &::before {
       width: 2vmin;
       height: 1.3vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 1.2vmin;
       left: -1.2vmin;
       transform: skewY(-5deg);
@@ -526,7 +526,7 @@ body {
     &::after {
       width: 4.2vmin;
       height: 1.5vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 1.2vmin;
       left: -4.5vmin;
       transform: skewY(-8deg) skewX(-30deg);
@@ -538,14 +538,14 @@ body {
     z-index: 2;
     width: 4.5vmin;
     height: 2vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 17vmin;
     left: 4.8vmin;
 
     &::before {
       width: 2vmin;
       height: 5vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 2vmin;
       left: 2.9vmin;
       transform: rotate(2deg);
@@ -554,7 +554,7 @@ body {
     &::after {
       width: 1.6vmin;
       height: 4.2vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 2.4vmin;
       left: 1.4vmin;
       transform: skewX(-2deg) skewY(-20deg);
@@ -566,7 +566,7 @@ body {
     z-index: 3;
     width: 6vmin;
     height: 2.5vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 27vmin;
     left: 1.4vmin;
     transform: skewX(45deg) skewY(-8deg);
@@ -575,7 +575,7 @@ body {
     &::before {
       width: 7.2vmin;
       height: 6vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: -1.8vmin;
       left: 9.7vmin;
       transform: rotate(-0.5deg) skewX(-70deg) skewY(8deg);
@@ -589,7 +589,7 @@ body {
     z-index: 2;
     width: 3vmin;
     height: 8.5vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: -11.8vmin;
     left: 31.5vmin;
     transform: skewX(2deg) skewY(-30deg);
@@ -598,7 +598,7 @@ body {
     &::before {
       width: 1.8vmin;
       height: 3vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 7.8vmin;
       transform: skewY(-20deg);
       border-radius: 0 50% 20% 0;
@@ -619,7 +619,7 @@ body {
     z-index: 2;
     width: 1.35vmin;
     height: 1.4vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: -1vmin;
     left: 31.4vmin;
     border-radius: 0 3vmin 3vmin 0;
@@ -640,7 +640,7 @@ body {
     z-index: 3;
     width: 7vmin;
     height: 10vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: -2vmin;
     left: 18.5vmin;
     transform: skewX(2deg);
@@ -658,7 +658,7 @@ body {
     &::after {
       width: 1vmin;
       height: 4vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: -0.45vmin;
       left: 6.16vmin;
       transform: rotate(3deg);
@@ -670,7 +670,7 @@ body {
     z-index: 3;
     width: 9vmin;
     height: 11vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 18vmin;
     left: 17.45vmin;
     transform: skewX(4deg);
@@ -679,7 +679,7 @@ body {
     &::before {
       width: 2vmin;
       height: 12vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: -4vmin;
       left: -17.2vmin;
       transform: rotate(-14deg) skewY(-10deg);
@@ -698,7 +698,7 @@ body {
   &-3 {
     width: 2vmin;
     height: 6.2vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 27.5vmin;
     left: -18.5vmin;
     transform: rotate(-23deg) skewX(1.8deg);
@@ -711,7 +711,7 @@ body {
     z-index: 2;
     width: 11.8vmin;
     height: 10vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 28.6vmin;
     left: 18.8vmin;
     transform: skewX(3deg);
@@ -720,7 +720,7 @@ body {
     &::before {
       width: 2vmin;
       height: 2vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 4.4vmin;
       left: 1vmin;
       transform: skewX(-12deg);
@@ -740,7 +740,7 @@ body {
     z-index: 3;
     width: 2vmin;
     height: 3vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 32vmin;
     left: 15vmin;
     transform: skewX(-30deg);
@@ -748,7 +748,7 @@ body {
     &::before {
       width: 1.4vmin;
       height: 3.6vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: -1.7vmin;
       left: -14.6vmin;
       transform: skew(30deg) rotate(-22deg);
@@ -758,7 +758,7 @@ body {
     &::after {
       width: 11vmin;
       height: 6.2vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 1vmin;
       left: -10.2vmin;
       transform: rotate(-5deg) skewX(40deg);
@@ -798,14 +798,14 @@ body {
     z-index: 3;
     width: 23vmin;
     height: 16.5vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 55vmin;
     left: 13vmin;
 
     &::before {
       width: 3vmin;
       height: 4vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: -0.9vmin;
       left: 20.8vmin;
       transform: rotate(18deg) skewY(10deg);
@@ -862,7 +862,7 @@ body {
     &::before {
       width: 9.4vmin;
       height: 3vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: -5vmin;
       left: -4vmin;
       transform: rotate(62deg);
@@ -884,7 +884,7 @@ body {
     z-index: 2;
     width: 15vmin;
     height: 2.1vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 43.8vmin;
     left: -11.8vmin;
     transform: rotate(40deg) skewY(12deg);
@@ -902,7 +902,7 @@ body {
     &::after {
       width: 2vmin;
       height: 2vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: -1vmin;
       left: 7.2vmin;
       transform: rotate(15deg);
@@ -913,7 +913,7 @@ body {
     z-index: 3;
     width: 1.3vmin;
     height: 3vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 35vmin;
     left: -21.4vmin;
     transform: skewX(8deg) skewY(45deg);
@@ -921,7 +921,7 @@ body {
     &::before {
       width: 1.3vmin;
       height: 14.7vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 3vmin;
       border-radius: 0 0 100% 0;
     }
@@ -941,7 +941,7 @@ body {
     z-index: 3;
     width: 1vmin;
     height: 10vmin;
-    background: $portrait-color;
+    background: $dark-color;
     top: 56.8vmin;
     left: -21.3vmin;
     transform: rotate(-12deg);
@@ -959,7 +959,7 @@ body {
     &::after {
       width: 1vmin;
       height: 7vmin;
-      background: $portrait-color;
+      background: $dark-color;
       top: 1.6vmin;
       left: 0.4vmin;
       transform: rotate(5deg);
