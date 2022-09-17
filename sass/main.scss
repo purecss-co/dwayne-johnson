@@ -33,7 +33,7 @@ body {
     background: $portrait-color;
     top: -50vmin;
     left: -4vmin;
-    border-radius: 42% 58% 50% 50% / 100% 100% 0% 0%;
+    border-radius: 42% 58% 50% 50% / 100% 100% 0 0;
 
     &::before {
       width: 10vmin;
@@ -198,7 +198,7 @@ body {
       top: 2.6vmin;
       left: 5.2vmin;
       transform: skewX(20deg) rotate(-10deg);
-      border-radius: 0% 100% 70% 30% / 0% 0% 100% 100%;
+      border-radius: 0 100% 70% 30% / 0 0 100% 100%;
     }
   }
 
