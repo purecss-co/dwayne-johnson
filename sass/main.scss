@@ -41,8 +41,8 @@ body {
       background: $bg-color;
       top: 3.8vmin;
       left: 14.4vmin;
-      border-radius: 0 6vmin 0 0;
       transform: rotate(-18deg) skewY(5deg);
+      border-radius: 0 6vmin 0 0;
     }
 
     &::after {
