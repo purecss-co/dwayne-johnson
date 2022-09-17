@@ -958,11 +958,12 @@ body {
 
     &::after {
       width: 1vmin;
-      height: 7vmin;
+      height: 8vmin;
       background: $dark-color;
       top: 1.6vmin;
-      left: 0.4vmin;
+      left: 0.55vmin;
       transform: rotate(5deg);
+      border-radius: 0 0 0 50%;
     }
   }
 }
